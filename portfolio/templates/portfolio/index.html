@@ -1,8 +1,25 @@
-{% load bootstrap3 %}
+{% extends 'portfolio/base.html' %}
 
-{% bootstrap_css %}
-{% bootstrap_javascript %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Chris Humphreys</h1>
+            </div>
+        </div>
+        <div class=" col-lg">
+            <h2>Skills and Education</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Bachelors of Political Science - Univ. of Idaho</li>
+            </ul>
+            <button class="btn-primary btn">
+                test
+            </button>
+        </div>
+        <div class="col-sm">
+            <h1 class="text-center">About Me</h1>
 
-{% bootstrap_messages %}
+        </div>
+    </div>
+{% endblock %}
 
-<h1>This is test!</h1>
