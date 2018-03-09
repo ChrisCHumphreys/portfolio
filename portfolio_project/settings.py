@@ -121,6 +121,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-BOOTSTRAP3 = { 'theme_url':
+BOOTSTRAP4 = { 'theme_url':
                '/static/bootstrap/css/bootstrap.min.css',
                }
