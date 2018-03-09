@@ -1,5 +1,18 @@
 {% extends 'portfolio/base.html' %}
 
+{% load static %}
+
+{% block custom-css %}
+
+      <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+  <title>CodePen - Tic-Tac-Toe</title>
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel="stylesheet" type="text/css" href="{% static 'tictactoe/ttt.css' %}">
+{% endblock %}
+
 {% block content %}
 <div class="container-fluid">
   <div class="row">
@@ -52,4 +65,6 @@
   <div class="row spacer">
   </div>
 </div>
+     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src="{% static 'tictactoe/ttt.js' %}"></script>
 {% endblock %}
