@@ -1,7 +1,7 @@
-from .views import tictactoe
+from .views import TicTacToe
 from django.urls import path
 
 
 urlpatterns = [
-    path('', tictactoe.as_view(), name = 'index'),
+    path('', TicTacToe.as_view(), name = 'tictactoe'),
 ]
