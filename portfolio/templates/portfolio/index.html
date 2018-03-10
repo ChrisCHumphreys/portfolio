@@ -113,6 +113,48 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+                <div class="row">
+            <div class="mx-auto col-lg-4 d-flex align-items-stretch">
+                <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
+                    <div class="card-header">Tic Tac Toe</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Tic Tac Toe in Your Browser</h4>
+                        <a href="{% url 'tictactoe' %}">
+                            <img src="{% static 'images/tic.png' %}" alt="A screenshot of the tic tac toe page"
+                                 class="img-thumbnail">
+                            <p class="card-text">HTML, CSS, JavaScript, JQuery, Bootstrap 3</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-auto col-lg-4 d-flex align-items-stretch">
+                <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
+                    <div class="card-header">Simon</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Play the 80's Classic</h4>
+                        <a href="{% url 'simon' %}">
+                            <img src="{% static 'images/simon-thumb.png' %}" alt="A screenshot of the simon game page"
+                                 class="img-thumbnail">
+                            <p class="card-text">HTML, CSS, JavaScript, JQuery, Bootstrap 3</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-auto col-lg-4 d-flex align-items-stretch">
+                <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
+                    <div class="card-header">Weather App</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Little Weather App that shows weather based on location.</h4>
+                        <a href="{% url 'weather' %}">
+                            <img src="{% static 'images/weather-thumb.png' %}" alt="A screenshot of the local weather app"
+                                 class="img-thumbnail">
+                            <p class="card-text">OpenWeather API, HTML, CSS, JavaScript, JQuery, Boostrap 3</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
 
