@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'portfolio',
     'bootstrap4',
     'tictactoe',
+    'simon',
 ]
 
 MIDDLEWARE = [
