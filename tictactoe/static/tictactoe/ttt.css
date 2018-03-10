@@ -1,17 +1,17 @@
 h1 {
   font-family: 'Indie Flower', cursive;
-  font-size: 75px;
+  font-size: 75rem;
 }
 
 h2 {
   font-family: 'Indie Flower', cursive;
-  font-size: 100px;
+  font-size: 100rem;
   line-height: 60%;
 }
 
 h3 {
   font-family: 'Indie Flower', cursive;
-  font-size: 40px;
+  font-size: 40rem;
 }
 
 .title {
@@ -31,46 +31,46 @@ h3 {
 }
 
 .square {
-  height: 120px;
+  height: 120rem;
   text-align: center;
 }
 
 .upperLeft {
-  border-right: solid 3px black;
-  border-bottom: solid 3px black;
+  border-right: solid 3rem black;
+  border-bottom: solid 3rem black;
 }
 
 .upperMiddle {
-  border-bottom: solid 3px black;
+  border-bottom: solid 3rem black;
 }
 
 .upperRight {
- border-left: solid 3px black;
- border-bottom: solid 3px black;
+ border-left: solid 3rem black;
+ border-bottom: solid 3rem black;
 }
 
 .midLeft {
-  border-right: solid 3px black;
+  border-right: solid 3rem black;
 }
 
 .midRight {
- border-left: solid 3px black;
+ border-left: solid 3rem black;
 }
 
 .bottomLeft {
-  border-top: solid 3px black;
-  border-right: solid 3px black;
+  border-top: solid 3rem black;
+  border-right: solid 3rem black;
 }
 
 .bottomMiddle {
-  border-top: solid 3px black;
+  border-top: solid 3rem black;
 }
 
 .bottomRight {
-  border-left: solid 3px black;
-  border-top: solid 3px black;
+  border-left: solid 3rem black;
+  border-top: solid 3rem black;
 }
 
 .spacer {
-  height: 30px;
+  height: 30rem;
 }
