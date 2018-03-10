@@ -68,7 +68,7 @@ $(document).ready(function() {
         var iconHtml = "";
         iconHtml += "<img src='http://openweathermap.org/img/w/";
         iconHtml += icon;
-        iconHtml += ".png' class='center-block' id='weatherIcon' height='100'></img>";
+        iconHtml += ".png' class='mx-auto d-block' id='weatherIcon' height='100'></img>";
         $("#icon").html(iconHtml);
         //console.log(icon);
       });

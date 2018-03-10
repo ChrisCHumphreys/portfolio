@@ -4,52 +4,45 @@
 
 {% block custom-css %}
     <title>Weather App</title>
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{% static 'weather/weather.css' %}" type="text/css">
 {% endblock %}
 
 {% block content %}
 
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Title -->
-            <div class="col-xs-12">
-                <h1>Weather App</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div id="city">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div id="temp">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <button id="unitChanger" class="btn btn-primary center-block">Farenheit/Celsius
-                </button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div id="description">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div id="icon">
-                </div>
-            </div>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Title -->
+        <div class="col-12">
+             <h1>Weather App</h1>
         </div>
     </div>
-    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <div class="row">
+        <div class="col-12">
+            <div id="city"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div id="temp"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button id="unitChanger" class="btn btn-primary mx-auto d-block">Farenheit/Celsius</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div id="description"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div id="icon"></div>
+        </div>
+    </div>
+</div>
    <script src="{% static 'weather/weather.js' %}"></script>
 
 
