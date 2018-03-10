@@ -1,0 +1,19 @@
+h1 {
+  font-family: 'Roboto Mono';
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto Mono';
+  text-align: center;
+}
+
+body {
+  background-image: url('http://www.chrischumphreys.com/wp-content/uploads/2016/09/cheap_diagonal_fabric.png');
+}
+
+.header {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
