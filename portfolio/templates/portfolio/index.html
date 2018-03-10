@@ -30,10 +30,10 @@
                     <p class="">University of Tennessee at Martin - Present</p>
                     <hr class="my-4">
                     <p class="lead">Programming Languages</p>
-                    <p class="">Python, C++, C, C#, Java, JavaScript, PHP, Prolog</p>
+                    <p class="">Python, C++, C, C#, Java, JavaScript, PHP, Prolog, SQL</p>
                     <hr class="my-4">
                     <p class="lead">Frameworks and Tools</p>
-                    <p class="">Django, CSS, JQuery, React, HTML, Bootstrap</p>
+                    <p class="">Django, CSS, JQuery, React, HTML, Bootstrap, Apache, MySQL, PostgreSQL</p>
                     <hr class="my-4">
                     <p class="lead">Awards and Certifications</p>
                     <p class="">First Place - 2017 Murray State Hackathon</p>
@@ -51,7 +51,7 @@
                         science at the University of Tennessee at Martin. I
                         maintain a 4.0 GPA and expect to graduate in December of 2019.</p>
                     <p class="">Before starting my formal education in Computer Science I
-                        taught myself to code using online resources, while working full time in
+                        taught myself to code using online resources while working full time in
                         a business management role. It is through this self training that I
                         learned my true passion was working with computers and coding. Because of this I left
                         a stable, well paying job to go back to school. I am now approximately half
@@ -59,7 +59,7 @@
                         decisions I have made.</p>
                     <p class="">I also love to bake sourdough bread, and go fishing at the
                         various lakes and ponds of western Tennessee.</pclass>
-                    <p class="">I am currently looking for an internship for the summer of 2018.
+                    <p class="">
                     </p>
                 </div>
             </div>
@@ -105,7 +105,8 @@
                     <div class="card-body">
                         <h4 class="card-title">Little Weather App that shows weather based on location.</h4>
                         <a href="{% url 'weather' %}">
-                            <img src="{% static 'images/weather-thumb.png' %}" alt="A screenshot of the local weather app"
+                            <img src="{% static 'images/weather-thumb.png' %}"
+                                 alt="A screenshot of the local weather app"
                                  class="img-thumbnail">
                             <p class="card-text">OpenWeather API, HTML, CSS, JavaScript, JQuery, Boostrap 3</p>
                         </a>
@@ -114,45 +115,71 @@
             </div>
         </div>
         <div class="row">
-                <div class="row">
-            <div class="mx-auto col-lg-4 d-flex align-items-stretch">
-                <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
-                    <div class="card-header">Tic Tac Toe</div>
-                    <div class="card-body">
-                        <h4 class="card-title">Tic Tac Toe in Your Browser</h4>
-                        <a href="{% url 'tictactoe' %}">
-                            <img src="{% static 'images/tic.png' %}" alt="A screenshot of the tic tac toe page"
-                                 class="img-thumbnail">
-                            <p class="card-text">HTML, CSS, JavaScript, JQuery, Bootstrap 3</p>
-                        </a>
+            <div class="row">
+                <div class="mx-auto col-lg-4 d-flex align-items-stretch">
+                    <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
+                        <div class="card-header">Tic Tac Toe</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Tic Tac Toe in Your Browser</h4>
+                            <a href="{% url 'tictactoe' %}">
+                                <img src="{% static 'images/tic.png' %}" alt="A screenshot of the tic tac toe page"
+                                     class="img-thumbnail">
+                                <p class="card-text">HTML, CSS, JavaScript, JQuery, Bootstrap 3</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto col-lg-4 d-flex align-items-stretch">
+                    <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
+                        <div class="card-header">Simon</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Play the 80's Classic</h4>
+                            <a href="{% url 'simon' %}">
+                                <img src="{% static 'images/simon-thumb.png' %}"
+                                     alt="A screenshot of the simon game page"
+                                     class="img-thumbnail">
+                                <p class="card-text">HTML, CSS, JavaScript, JQuery, Bootstrap 3</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto col-lg-4 d-flex align-items-stretch">
+                    <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
+                        <div class="card-header">Weather App</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Little Weather App that shows weather based on location.</h4>
+                            <a href="{% url 'weather' %}">
+                                <img src="{% static 'images/weather-thumb.png' %}"
+                                     alt="A screenshot of the local weather app"
+                                     class="img-thumbnail">
+                                <p class="card-text">OpenWeather API, HTML, CSS, JavaScript, JQuery, Boostrap 3</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="mx-auto col-lg-4 d-flex align-items-stretch">
-                <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
-                    <div class="card-header">Simon</div>
-                    <div class="card-body">
-                        <h4 class="card-title">Play the 80's Classic</h4>
-                        <a href="{% url 'simon' %}">
-                            <img src="{% static 'images/simon-thumb.png' %}" alt="A screenshot of the simon game page"
-                                 class="img-thumbnail">
-                            <p class="card-text">HTML, CSS, JavaScript, JQuery, Bootstrap 3</p>
-                        </a>
-                    </div>
-                </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="contact">
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center mb-4">Contact Info</h1>
             </div>
-            <div class="mx-auto col-lg-4 d-flex align-items-stretch">
-                <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
-                    <div class="card-header">Weather App</div>
-                    <div class="card-body">
-                        <h4 class="card-title">Little Weather App that shows weather based on location.</h4>
-                        <a href="{% url 'weather' %}">
-                            <img src="{% static 'images/weather-thumb.png' %}" alt="A screenshot of the local weather app"
-                                 class="img-thumbnail">
-                            <p class="card-text">OpenWeather API, HTML, CSS, JavaScript, JQuery, Boostrap 3</p>
-                        </a>
-                    </div>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <a href="mailto:geochris35@gmail.com"><p class="text-center">Email</p></a>
+                <a href="https://www.linkedin.com/in/christopher-humphreys-b15446a5"><p class="text-center">Linkedin</p></a>
+                <a href="https://github.com/ChrisCHumphreys"><p class="text-center">GitHub</p></a>
+                <a href="https://twitter.com/ChrisCHumphre"><p class="text-center">Twitter</p></a>
+
+            </div>
+            <div class="col-6">
+                <p class="mx-auto">I am currently looking for an internship for the summer of 2018, and will be
+                    looking for full time work in the fall of 2019.<br><br>
+                    I am also available for hire for short term jobs and projects, or part time work in the Martin, TN
+                    area while I finish school.</p>
             </div>
         </div>
     </div>

@@ -5,6 +5,7 @@
 <head>
     {% bootstrap_javascript jquery='full' %}
     {% bootstrap_css %}
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" type="text/css" href="{% static 'portfolio/me.css' %}"/>
     {% bootstrap_messages %}
     {% block custom-css %}
@@ -27,7 +28,7 @@
                 <a class="nav-link" href="{% url 'index' %}#portfolio">Portfolio</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Contact Me</a>
+                <a class="nav-link" href="{% url 'index' %}#contact">Contact Me</a>
             </li>
         </ul>
     </div>
