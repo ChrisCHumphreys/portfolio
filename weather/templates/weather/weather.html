@@ -6,11 +6,11 @@
     <title>Weather App</title>
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="{% static 'weather/weather.css' %}" type="text/css">
 {% endblock %}
 
 {% block content %}
-<link href="{% static 'weather/weather.css' %}" type="text/css">
+
     <div class="container-fluid">
         <div class="row">
             <!-- Title -->
@@ -49,6 +49,7 @@
             </div>
         </div>
     </div>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
    <script src="{% static 'weather/weather.js' %}"></script>
 
 

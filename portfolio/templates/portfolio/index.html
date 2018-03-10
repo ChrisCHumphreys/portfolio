@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="mx-auto col-lg-4">
+            <div class="mx-auto col-lg-4 d-flex align-items-stretch">
                 <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
                     <div class="card-header">Tic Tac Toe</div>
                     <div class="card-body">
@@ -86,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mx-auto col-lg-4">
+            <div class="mx-auto col-lg-4 d-flex align-items-stretch">
                 <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
                     <div class="card-header">Simon</div>
                     <div class="card-body">
@@ -99,15 +99,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="mx-auto col-lg-4 d-flex align-items-stretch">
                 <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 30rem;">
                     <div class="card-header">Weather App</div>
                     <div class="card-body">
                         <h4 class="card-title">Little Weather App that shows weather based on location.</h4>
                         <a href="{% url 'weather' %}">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                            <img src="{% static 'images/weather-thumb.png' %}" alt="A screenshot of the local weather app"
+                                 class="img-thumbnail">
+                            <p class="card-text">OpenWeather API, HTML, CSS, JavaScript, JQuery, Boostrap 3</p>
                         </a>
                     </div>
                 </div>

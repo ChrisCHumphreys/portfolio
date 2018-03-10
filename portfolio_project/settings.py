@@ -26,7 +26,9 @@ SECRET_KEY = '1%ipmpy@&=s(glmzyl!fnq55xn1qms!t9ereuo2&c8e9wifc+#'
 DEBUG = True
 
 ALLOWED_HOSTS = ['192.168.0.138',
-                 '127.0.0.1:8000']
+                 '127.0.0.1,',
+                 'localhost',
+                 ]
 
 
 # Application definition
