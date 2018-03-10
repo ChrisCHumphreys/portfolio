@@ -21,4 +21,5 @@ urlpatterns = [
     path('', include('portfolio.urls')),
     path('tictactoe/', include('tictactoe.urls')),
     path('simon/', include('simon.urls')),
+    path('weather/', include('weather.urls')),
 ]
