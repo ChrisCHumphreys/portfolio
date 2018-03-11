@@ -16,5 +16,7 @@ python_version = "3.5"
 
 [packages]
 
-Django = "*"
+django = "*"
 "django-bootstrap4" = "*"
+gunicorn = "*"
+whitenoise = "*"
