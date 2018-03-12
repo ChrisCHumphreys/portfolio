@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['192.168.0.138',
                  '127.0.0.1',
+                 'chrishumphreyspf.herokuapp.com',
                 ]
 
 # Application definition
