@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1a557eed-0af6-4c70-a052-a40817d192a4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/portfolio_project/production.py" afterPath="$PROJECT_DIR$/portfolio_project/production.py" />
-      <change beforePath="$PROJECT_DIR$/portfolio_project/settings.py" afterPath="$PROJECT_DIR$/portfolio_project/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -649,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520818100273</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="temp made production debug = true">
+      <created>1520818931529</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1520818931529</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -719,7 +724,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added static files for tictactoe" />
     <MESSAGE value="tictactoe now working" />
     <MESSAGE value="added two pics" />
     <MESSAGE value="tic tac toe added" />
@@ -744,7 +748,8 @@
     <MESSAGE value="added test.txt to statice in portfolio_project" />
     <MESSAGE value="updated staticfiles" />
     <MESSAGE value="added heroku to allowed hosts" />
-    <option name="LAST_COMMIT_MESSAGE" value="added heroku to allowed hosts" />
+    <MESSAGE value="temp made production debug = true" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp made production debug = true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
