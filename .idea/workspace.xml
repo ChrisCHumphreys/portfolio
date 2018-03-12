@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1a557eed-0af6-4c70-a052-a40817d192a4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/index.html" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -366,13 +365,6 @@
       <option name="presentableId" value="Default" />
       <updated>1519612580639</updated>
     </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1519613211461</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1519613211461</updated>
-    </task>
     <task id="LOCAL-00002" summary="added bootstrap css">
       <created>1519613720898</created>
       <option name="number" value="00002" />
@@ -709,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520819427784</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="added disclaimer in about me section">
+      <created>1520819609860</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1520819609861</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -778,7 +777,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added simon project" />
     <MESSAGE value="links to simon project from main working" />
     <MESSAGE value="simon app added" />
     <MESSAGE value="links to weather app working" />
@@ -803,7 +801,8 @@
     <MESSAGE value="updated production.py settings for staticfiles" />
     <MESSAGE value="production settings were working.  updated allowed hosts and set debug = false" />
     <MESSAGE value="fixed a typo in settings.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed a typo in settings.py" />
+    <MESSAGE value="added disclaimer in about me section" />
+    <option name="LAST_COMMIT_MESSAGE" value="added disclaimer in about me section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
